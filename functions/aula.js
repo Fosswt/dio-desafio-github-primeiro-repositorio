@@ -19,19 +19,19 @@ function quadrado(number){
 }
 console.log(quadrado(4))
 function pow(number, pow){
-    
-    let result = 0
     if(pow == 0){
         return 1
     }
     else{
+        let result = 0
+
         for(let i = 1; i < pow; i++){
             //multiplicar number por ele mesmo (pow) vezes
-            //
+            result =+ number * number
         }
         return result
     }
     
 }
-let oii = pow(5, 2)
+let oii = pow(5, 3)
 console.log(oii)
