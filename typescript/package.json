@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "vantagens do typescript => TIPAGEM, CLASSES, INTERFACES, ENUMS\r transpilação do código typescript para javascript \r typescript muito + seguro, previne erros de tipagem e outros erros bobos de declaração",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
